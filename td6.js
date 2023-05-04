@@ -18,6 +18,7 @@ xbutton.addEventListener("click", () => {
         
     } ,1000);  
     
+    
 })
 register.addEventListener("click", () => {
     register.disabled = true;
@@ -25,7 +26,3 @@ register.addEventListener("click", () => {
     formulaire.classList.remove("lowOpacity");
     formulaire.classList.remove("dontShow");
 })
-
-
-
-
